@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+  <default-config>
+  	<!-- 数据库驱动 -->
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <!-- 数据库名称 -->
+	<property name="jdbcUrl">jdbc:mysql:///map</property>
+	<!-- 数据库用户名 -->
+	<property name="user">root</property>
+	<!-- 数据库密码 -->
+	<property name="password">fusong</property>
+	<property name="initialPoolSize">5</property>
+	<property name="maxPoolSize">20</property>
+  </default-config>
+</c3p0-config>
